@@ -9,7 +9,7 @@ const getVisitor = async () => {
   return await fp.get()
 }
 
-const visitorId: Ref<string> = ref('0')
+const visitorId: Ref<string> = ref('')
 
 onMounted(async () => {
   const visitor = await getVisitor()
@@ -18,17 +18,5 @@ onMounted(async () => {
 </script>
 
 <template>
-  <p class="fp_right">your current id is :</p>
-  <p class="fp_left">{{ visitorId }}</p>
+  <h2>{{ visitorId }}</h2>
 </template>
-
-<style lang="scss">
-.fp {
-  &_left {
-    text-align: left;
-  }
-  &_right {
-    text-align: right;
-  }
-}
-</style>

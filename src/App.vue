@@ -15,9 +15,9 @@ body {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(2, 0.5fr);
+  display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   min-width: 100vw;
   height: 100%;
@@ -25,6 +25,5 @@ body {
   padding: 30px;
   background-color: #000;
   color: #fff;
-  font-size: 30px;
 }
 </style>
