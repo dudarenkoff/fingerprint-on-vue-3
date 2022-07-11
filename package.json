@@ -1,7 +1,6 @@
 {
   "name": "fingerprint-on-vue-3",
   "version": "0.0.0",
-  "homepage": "https://dudarenkoff.github.io/fingerprint-on-vue-3/",
   "scripts": {
     "dev": "vite --open",
     "build": "run-p type-check build-only",
